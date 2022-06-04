@@ -14,6 +14,7 @@ O Flexbox é um conceito do CSS3 que visa organizar os elementos de uma página 
 
 Foi projetado como um modelo de layout unidimensional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento.
 
+
 ## Flex container
 
 
@@ -25,8 +26,9 @@ em flex itens.
 Propriedades relacionadas:
 
 ● display - que é o inicializador do container
-● flex-direction - direciona o alinhamento dos itens , sejam em linhas ou colunas
-● flex-wrap- se aplica na quebra de linha ou não
+● flex-direction - direci. É a  propriedade que estabelece o eixo principal do container,
+definindo assim a direção que os flex items são colocados no flex container (temos dois eixos linhas(row) e colunas (column - ondenação de cima para baixo e tem o column reverse também)), temos row-reverse que altera o modo leitura ele inverte ex: 1234-> 4321
+● flex-wrap- se aplica na quebra de linha ou não.Por padrão não quebram linham, isso faz com que os flex-itens sejam compactados além do limite do conteudo - temos nowrap: é o padrão, não permite quebra de linha, elementos podem vazar do container. temos o wrap: que permite a quebra de linha, se o elemento não comportar ele pasa o componente para alinha de baixo, wrap-reverse: permite a quebra de linha no sentido contrario.
 ● flex-flow- abreviação para o direction ou wrap
 ● justify-content- que vai alinhar os itens do container de acordo com a sua direção
 ● align-items - que vai alinhar esses itens de acordo com o seu eixo do container
