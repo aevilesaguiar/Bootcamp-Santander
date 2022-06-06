@@ -35,6 +35,12 @@ quando mudamos o flex direction para column, mantemos o padrão do flex-wrap que
 ● align-items - que vai alinhar esses itens de acordo com o seu eixo do container
 ● align-content - alinhar as linhas do container
 
+flex-shrink
+Esta propriedade define a proporção com que um item deve encolher caso seja necessário. Por padrão seu valor é 0, o que indica que o item não deve encolher, e são aceitos apenas valores numéricos positivos.
+
+
+Qual a propriedade que possibilita fazer o alinhamento individual de um flex item em relação ao eixo do flex container?
+align-self
 
 ## Flex Item
 
