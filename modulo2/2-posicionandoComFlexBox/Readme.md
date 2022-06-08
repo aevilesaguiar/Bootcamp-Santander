@@ -62,3 +62,7 @@ Propriedades relacionadas:
 Display flex Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
 
 
+
+Referencias
+
+https://origamid.com/projetos/flexbox-guia-completo/
