@@ -1,0 +1,14 @@
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+.body_total{
+    text-align: center;
+}
+
+body{
+    font-size: 22px; 
+    margin: 50px;
+}
+

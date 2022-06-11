@@ -1,0 +1,24 @@
+button{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+}
+
+input{
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+
+}
+.body_total{
+    text-align: center;
+}
+
+
+
+.task-list{
+    text-align: left;
+
+}
+
+
